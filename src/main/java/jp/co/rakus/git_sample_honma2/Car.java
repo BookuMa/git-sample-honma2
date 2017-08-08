@@ -6,6 +6,11 @@ public class Car {
 	
 	public void run() {
 		this.speed += 50;
+		
+	}
+	
+	public void stop(){
+		this.speed = 0;
 	}
 	
 	
