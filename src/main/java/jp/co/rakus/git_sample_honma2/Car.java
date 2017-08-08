@@ -4,6 +4,11 @@ public class Car {
 	private int speed;
 	private int tire;
 	
+	public void run() {
+		this.speed += 50;
+	}
+	
+	
 	public int getSpeed() {
 		return speed;
 	}
